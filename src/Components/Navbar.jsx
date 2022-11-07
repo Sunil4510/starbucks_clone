@@ -5,11 +5,11 @@ const Navbar = () => {
     const toggleMenu =()=>{
         setmenu(!menu);
     }
-    
+
   return (
     <>
         <nav className="nav">
-            <img src="/logo.webp" alt="icon" className="navIcon"/>
+            <img src="./logo.webp" alt="icon" className="navIcon"/>
                 <div className={`navbar ${menu?"open":"hide"}`}>
                     <div className="list">
                         <ul className="list_ul">
@@ -21,9 +21,9 @@ const Navbar = () => {
                     <hr className="line"/>
                     <div className="store">
                          <div className="store_location">
-                            <img src="/loc.svg" alt="location"
+                            <img src="./loc.svg" alt="location"
                             className="blackS"/>
-                            <img src="/green.png" alt="location" className="greenS"/>
+                            <img src="./green.png" alt="location" className="greenS"/>
                             <p>Find a Store</p>
                         </div>
                     <div className="store_btn">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </div>
             </div>
             <button onClick={toggleMenu} className="menu">
-            {menu?(<img src="/w.png" alt="w" className="menu_w"/>) :(<img src="/menu.svg" alt="menu" className="menu_h"/>)}
+            {menu?(<img src="./w.png" alt="w" className="menu_w"/>) :(<img src="./menu.svg" alt="menu" className="menu_h"/>)}
             </button>
         </nav>
     </>

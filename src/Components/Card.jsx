@@ -3,7 +3,7 @@ import './Card.css'
 const Card = () => {
   return (
     <div className="card">
-        <img src="/delta.webp" alt="title" className="card_img"/>
+        <img src="./delta.webp" alt="title" className="card_img"/>
         <div className="card_info">
             <p className="card_title">A new way to earn sips and trips</p>
             <p className="card_heading">Now you can link your Starbucks® Rewards + Delta SkyMiles® accounts to get:</p>

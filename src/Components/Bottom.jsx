@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Bottom.css"
 const Bottom = () => {
-    const img = ['./spotify.png','./facebook.png','./pinterest.png','/instagram.png','./youtube.png','./twitter.png'];
+    const img = ['./spotify.png','./facebook.png','./pinterest.png','./instagram.png','./youtube.png','./twitter.png'];
     const data = ['Privacy Policy','Terms of Use','CA Supply Chain Act','Cookie Preferences']
   return (
     <div className="bottom">
