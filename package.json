@@ -1,8 +1,8 @@
 {
   "name": "starbucks",
   "version": "0.1.0",
-  "homepage": "https://Sunil4510.github.io/starbucks_clone/",
   "private": true,
+  "homepage": "https://Sunil4510.github.io/starbucks_clone/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
