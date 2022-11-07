@@ -1,0 +1,49 @@
+.footer{
+    margin-left: 40px;
+    height: auto;
+}
+.footer h1{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.footer ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color:rgb(114, 113, 113);
+    width: 180px;
+    margin-left: 0px;
+}
+.footer ul li:hover{
+    color:black;
+    cursor: pointer;
+}
+@media screen and (max-width:1110px){
+    .footer{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding:10px;
+    }
+    .ul_open{
+        transition: ease 2s;
+        width:100%;
+        top:10%;
+        height:auto;
+        visibility:visible;
+    }
+    .ul_open li{
+        transition: ease 1s;
+        opacity: 1;
+    }
+    .ul_hide{
+        transition: ease 0.5s;
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+    .ul_hide li{
+        transition: ease 0.5s;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+
+}
+.nav{
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    width: auto;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:20px 0px;
+    box-shadow: 2px 0px 4px rgb(110, 110, 110);
+}
+.navIcon{
+margin-left:40px;
+width:60px;
+height:60px;
+}
+.navIcon:hover{
+    cursor:pointer;
+}
+
+.navbar{
+    flex: 1;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.list_ul{
+    display: flex;
+    align-items:center;
+    margin-left:25px;
+    font-size: 15px;
+    position: relative;
+
+}
+.list_ul > li:hover{
+    cursor:pointer;
+    color: rgb(3, 189, 3);
+}
+.menu{
+    display: none;
+}
+.store{
+    margin-right: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex: 0.5;
+}
+.list_ul > li{
+    list-style-type: none;
+    margin-left: 20px;
+    font-weight: bolder;
+    letter-spacing:2px;
+}
+.store_btn > button{
+    width: 100px;
+    height: 40px;
+    border-radius:30px;   
+    border:1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+    margin-left:10px;
+}
+.store_sign{
+    background-color:white
+}
+.store_join{
+    background-color:black;
+    color:white;
+}
+.store_location{
+    display:flex;
+    margin-right: 10px;
+    align-items:center;
+}
+.store_location > img{
+    width:25px;
+    height:25px;
+}
+.store_location > p{
+    font-weight:600;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.store_location:hover{
+    cursor: pointer;
+    color:rgb(4, 211, 4);
+}
+.store_sign:hover{
+cursor: pointer;
+background-color:rgb(228, 227, 227);
+}
+.store_join:hover{
+    cursor: pointer;
+    background-color:rgba(7, 7, 7, 0.716)
+}
+.greenS{
+    display: none;
+}
+.store_location:hover .blackS{
+display: none
+}
+.store_location:hover .greenS{
+    display:inline;
+}
+.store_btn{
+    display: flex;
+}
+.menu_arrow,.line{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:760px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        height:100vh;
+        position: absolute;
+        width: 0vw;
+        top: 87px;
+        right: 0;
+        opacity:1;
+        justify-content: flex-start;
+        margin-top: 3px;
+        box-shadow: 2px 1px 4px rgb(172, 170, 170);
+        overflow-x: hidden;
+        transition: ease 0.4s;
+        background-color:white;
+    }
+    .open{
+        width:80vw;
+    }
+
+     /* @keyframes slide {
+        from{
+            transform: translateX(100%);
+        }
+        to{
+            transform: translateX(0%);
+        }
+    }  */
+    .hide{
+        width: 0vw;
+    }
+    .menu_w{
+        transition: ease 0.3s;
+        transform: rotate(90deg);
+    }
+    .menu_h{
+        transition: ease 0.3s;
+    }
+    .menu{
+        display: inline;
+    }
+    .list_ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .list_ul > li{
+        margin-top:40px;
+        font-size: 18px;
+    }
+    .line{
+        visibility: visible;
+        border: 1px solid rgb(206, 204, 204);
+        width: 85%;
+        margin-top:40px;
+        margin-left: 40px;
+        border-radius: 2px;
+    }
+    .store{    
+        margin-top:40px;    
+        flex-direction: column-reverse;
+        justify-content:flex-end;
+    }
+    .store_btn{
+        display:flex;
+        align-items:flex-start;
+        margin-left:25px;
+    }
+    .store_btn > button{
+        height:35px;
+        width:90px;
+        font-size: 15px;
+    }
+    .store_location{
+        margin-top:30px;
+        margin-right: 20px;
+    }
+    .store_location > p{
+        font-size: 16px;
+        font-weight: 200;
+        letter-spacing:1px;
+    }
+    .menu{
+        margin-right:20px;
+        background-color: white;
+        border:none;
+    }
+    .menu > img{
+        width:30px;
+        height:30px;
+    } 
+    .menu_arrow{
+        visibility:visible;
+    } 
+    .list_ul > li:first-child{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:60vw;
+    }
+    
+}
