@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/starbucks_clone/static/css/main.e15b024f.css",
-    "main.js": "/starbucks_clone/static/js/main.f9b4f612.js",
+    "main.js": "/starbucks_clone/static/js/main.75533637.js",
     "static/js/787.d83f0b62.chunk.js": "/starbucks_clone/static/js/787.d83f0b62.chunk.js",
     "index.html": "/starbucks_clone/index.html",
     "main.e15b024f.css.map": "/starbucks_clone/static/css/main.e15b024f.css.map",
-    "main.f9b4f612.js.map": "/starbucks_clone/static/js/main.f9b4f612.js.map",
+    "main.75533637.js.map": "/starbucks_clone/static/js/main.75533637.js.map",
     "787.d83f0b62.chunk.js.map": "/starbucks_clone/static/js/787.d83f0b62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e15b024f.css",
-    "static/js/main.f9b4f612.js"
+    "static/js/main.75533637.js"
   ]
 }
